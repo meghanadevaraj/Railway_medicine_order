@@ -42,8 +42,8 @@
         <a href="admin/admin_login.php" class="btn btn-primary role-btn">Admin</a>
         <a href="shop/login.php" class="btn btn-success role-btn">Shop Owner</a>
         <a href="user/user_login.php" class="btn btn-warning role-btn">User</a>
+        <a href="madicine_booking/login.php" class="btn btn-danger role-btn">Book your emergency medicine's</a>
     </div>
-
 </body>
 </html>
 

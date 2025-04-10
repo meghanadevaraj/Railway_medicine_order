@@ -1,0 +1,57 @@
+body
+{
+    background-image: url(../images/cod.jpg) no-repeat;
+    background-color:rgb(255, 255, 255);
+    background-size: cover;
+}
+.btn1
+{
+    width: 200px;
+    background: none;
+    background-color: white;
+    border: 3px solid #4caf50;
+    padding: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 12px 0;
+    margin-left: 11%;
+    color:red;
+    font-weight: bolder;
+}
+.btn2
+{
+    width: 200px;
+    background: none;
+    background-color: white;
+    border: 3px solid #4caf50;
+    padding: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 12px 0;
+    margin-left: 11%;
+    color:red;
+    font-weight: bolder;
+}
+.btn1:hover
+{
+    background-color:rgb(255, 255, 255);
+}
+.btn2:hover
+{
+    background-color:rgb(255, 255, 255);
+}
+p
+{
+    margin-left: 11%;
+    margin-top: 10%;
+    font-size: 30px;
+    color: rgb(177, 24, 24);
+}
+#tc
+{
+    margin-left: 11%;
+}
+#ft
+{
+    font-size: 20px;
+}
