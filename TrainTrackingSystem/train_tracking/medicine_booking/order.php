@@ -731,6 +731,5 @@ function minus(cost, uid){
 <form id="myform" action="orderprocess.php"  method="post">
 </form>
   </body>
-
-
 </html>
+
