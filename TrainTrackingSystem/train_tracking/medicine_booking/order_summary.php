@@ -50,9 +50,7 @@ if(isset($_POST['button'])){
     echo "<center><h3 style="."color:red; margin:0;".">PNR and user doesn't exists</h3></center>";
   }
   }
-  else{
-      echo "<center><h3 style="."color:red; margin:0;".">Please Login to your to account before ordering food!</h3></center>";
-  }
+
 }
 else{
   echo "<center><h3 style="."color:red; margin:0;".">PNR doesn't exists</h3></center>";
