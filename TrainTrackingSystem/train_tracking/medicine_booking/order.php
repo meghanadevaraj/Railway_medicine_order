@@ -52,7 +52,7 @@ session_start(); ?>
         <img src="images/women.jpg" width="250px" height="150px" alt="soup">
       </div>
       <div class="caption">
-        <h3 align="center" >Women's</h3>
+        <h3 align="center" >Women</h3>
       </div>
     </div></a>
     <a href="#tandoori" ><div class="flex">
