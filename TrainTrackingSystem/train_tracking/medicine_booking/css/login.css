@@ -16,23 +16,22 @@ body
     color:aquamarine;
 }
 
-.login-box h1
-{
+.login-box h1 {
     float: left;
     font-size: 40px;
-    border-bottom: 6px solid #4caf50;<! -- For Underlining The Login -->
+    border-bottom: 6px solid #4caf50; /* For Underlining The Login */
     margin-bottom: 50px;
     padding: 13px 0;
 }
 
-.textbox
-{
+
+.textbox {
     width: 100%;
     overflow: hidden;
     font-size: 20px;
     padding: 8px 0;
     margin: 8px 0;
-    border-bottom: 1px solid #4caf50;<! -- For Underlining The Text Boxes -->
+    border-bottom: 1px solid #4caf50; /* For Underlining The Text Boxes */
 }
 
 .textbox input

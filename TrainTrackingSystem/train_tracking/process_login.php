@@ -8,9 +8,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
     <style>
         body {
-            background-color: rgba(227, 213, 213, 0.9);
-            background-size: cover;
-        }
+    background: url(img2.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
         .role-box {
             max-width: 650px;
             margin: 50px auto;
@@ -40,9 +41,9 @@
     <div class="role-box">
         <h2 class="mb-4">Select Your Role</h2>
         <a href="admin/admin_login.php" class="btn btn-primary role-btn">Admin</a>
-        <a href="shop/login.php" class="btn btn-success role-btn">Shop Owner</a>
+        <!--<a href="shop/login.php" class="btn btn-success role-btn">Shop Owner</a>-->
         <a href="user/user_login.php" class="btn btn-warning role-btn">User</a>
-        <a href="madicine_booking/login.php" class="btn btn-danger role-btn">Book your emergency medicine's</a>
+        <!--<a href="madicine_booking/login.php" class="btn btn-success role-btn">Book your emergency medicine's</a>-->
     </div>
 </body>
 </html>

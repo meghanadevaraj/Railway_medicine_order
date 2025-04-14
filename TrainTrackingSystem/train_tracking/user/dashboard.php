@@ -95,11 +95,11 @@ if (!isset($_SESSION['user_id'])) {
                 ["name" => "Bookin a Train Ticket", "image" => "uploads/img7.jpg", "link" => "book_train_ticket.php?service=Booking the Train Tickets"],
                 ["name" => "Check PNR Status", "image" => "uploads/img4.jpg", "link" => "pnr_status.php?service=Check-PNR-Status"],
                 ["name" => "Check Train, Coach & Status", "image" => "uploads/img5.jpg", "link" => "train_status.php?service=Check-Train,Coach-&-Status"],
-                // ["name" => "Track Your Train & Shop at Stations", "image" => "uploads/img6.jpg", "link" => "train_tracking/madicine_booking/pantry system.ph?service=Track-Your-Train&Shop-at-Stations"]
+                ["name" => "Track Your Train & Shop at Stations", "image" => "uploads/img6.jpg", "link" => "../medicine_booking/login.php?service=Track-Your-Train&Shop-at-Stations"]
             ];
 
             foreach ($services as $service): ?>
-                <div class="col-md-4  col-sm-6 mb-3">
+                <div class="col-md-3  col-sm-6 mb-3">
                     <a href="<?= $service['link']; ?>" class="text-decoration-none">
                         <div class="service-box shadow">
                             <img src="<?= $service['image']; ?>" alt="<?= $service['name']; ?>">
